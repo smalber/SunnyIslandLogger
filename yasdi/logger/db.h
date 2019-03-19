@@ -25,8 +25,10 @@
 #include "consts.h"
 
 void dbInit(char * iniFilename, int channelCount, char dbColumns[][MAX_COLUMN_NAME_LEN], char dbTypes[][MAX_COLUMN_TYPE_LEN]);
+void SIdbInit(char * iniFilename, int SIchannelCount, char SIdbColumns[][MAX_COLUMN_NAME_LEN], char SIdbTypes[][MAX_COLUMN_TYPE_LEN]);
 
 int insertValues(int channelCount, char dbColumns[][MAX_COLUMN_NAME_LEN], char channelValues[][MAX_CHANNEL_VALUE_LEN]);
+int SIinsertValues(int SIchannelCount, char SIdbColumns[][MAX_COLUMN_NAME_LEN], char SIchannelValues[][MAX_CHANNEL_VALUE_LEN]);
 
 void dbShutdown();
 
