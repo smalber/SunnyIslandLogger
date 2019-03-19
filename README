@@ -1,4 +1,4 @@
-SMysqLogger - a MySql logger for SMA inverters
+SMysqLogger - a MySql logger for SMA Sunny Island 5048 inverters
 
 This project was written to monitor a solar production site using a SMA inverter.
 It consists of:
